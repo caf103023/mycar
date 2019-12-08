@@ -44,19 +44,31 @@
 # STEERING_LEFT_PWM = 460         #pwm value for full left steering
 # STEERING_RIGHT_PWM = 290        #pwm value for full right steering
 #STEERING_LEFT_PWM = 460         #pwm value for full left steering
-STEERING_LEFT_PWM = 560         #pwm value for full left steering
-#STEERING_RIGHT_PWM = 290        #pwm value for full right steering
+STEERING_LEFT_PWM = 560         #pwm value for full left steeringSTEERING_RIGHT_PWM = 290        #pwm value for full right steering
 STEERING_RIGHT_PWM = 190        #pwm value for full right steering
 # 
 # #THROTTLE
 # THROTTLE_CHANNEL = 0            #channel on the 9685 pwm board 0-15
-# THROTTLE_FORWARD_PWM = 500      #pwm value for max forward throttle
-# THROTTLE_STOPPED_PWM = 370      #pwm value for no movement
-# THROTTLE_REVERSE_PWM = 220      #pwm value for max reverse throttle
+THROTTLE_FORWARD_PWM = 325      #pwm value for max forward throttle
+THROTTLE_STOPPED_PWM = 322      #pwm value for no movement
+THROTTLE_REVERSE_PWM = 299      #pwm value for max reverse throttle
 #THROTTLE_FORWARD_PWM = 410      #pwm value for max forward throttle
-THROTTLE_FORWARD_PWM = 390      #pwm value for max forward throttle
-THROTTLE_STOPPED_PWM = 320      #pwm value for no movement
-THROTTLE_REVERSE_PWM = 300      #pwm value for max reverse throttle
+
+# full battery
+#THROTTLE_FORWARD_PWM = 430      #pwm value for max forward throttle
+THROTTLE_FORWARD_PWM = 445      #pwm value for max forward throttle
+THROTTLE_STOPPED_PWM = 400      #pwm value for no movement
+#THROTTLE_REVERSE_PWM = 350      #pwm value for max reverse throttle
+THROTTLE_REVERSE_PWM = 335      #pwm value for max reverse throttle
+
+#THROTTLE_FORWARD_PWM = 390      #pwm value for max forward throttle
+#THROTTLE_STOPPED_PWM = 320      #pwm value for no movement
+#THROTTLE_REVERSE_PWM = 300      #pwm value for max reverse throttle
+
+# low battery
+#THROTTLE_FORWARD_PWM = 410      #pwm value for max forward throttle
+#THROTTLE_STOPPED_PWM = 380      #pwm value for no movement
+#THROTTLE_REVERSE_PWM = 330      #pwm value for max reverse throttle
 # 
 # #DC_STEER_THROTTLE with one motor as steering, one as drive
 # #these GPIO pinouts are only used for the DRIVE_TRAIN_TYPE=DC_STEER_THROTTLE
